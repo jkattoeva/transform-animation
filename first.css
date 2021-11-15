@@ -1,0 +1,45 @@
+body, html{
+  margin: 0 ;
+}
+div {
+  width: 100px;
+  height: 100px;
+  background-color: greenyellow;
+
+
+  animation-name: eight;
+  animation-duration: 3s;
+  animation-iteration-count: infinite;
+
+
+}
+
+@keyframes eight {
+0%{
+
+}
+10%{
+  transform: translateX(50vw) translateX(-100px);
+}
+30%{
+  transform: translateX(50vw) translateY(100vh) translateY(-100px)  translateX(-100px);
+
+}
+40%{
+  transform:  translateY(100vh) translateX(100vw) translateX(-100px) translateY(-100px);
+}
+50%{
+  transform:   translateY(15vh) translateX(100vw) translateX(-100px) translateY(-100px);
+}
+60%{
+  transform: translateX(50vw) translateY(15vh) translateY(-100px)  translateX(-100px); 
+}
+80%{
+  transform:  translateY(100vh) translateX(50vw) translateX(-100px) translateY(-100px);
+}
+90%{
+  transform:  translateY(100vh) translateX(6vw) translateX(-100px) translateY(-100px);
+}
+100%{
+}
+}
